@@ -29,9 +29,9 @@ void setup()                // configura el final de la sortida
   Serial.print("b = ");       // Ens diu el valor de la variable b
   Serial.println(b);          // Salta a la següent linea 
 
-  d = a / b;
+  d = a % b;
  
-  Serial.print("a / b = ");       // Fa la següent operació 
+  Serial.print("a % b = ");       // Fa la següent operació 
   Serial.println(d);              // Ens diu el valor de la variable d 
 
 }
